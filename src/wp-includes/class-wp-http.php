@@ -112,7 +112,7 @@ class WP_Http {
 	 *                                             assumed. Default 'GET'.
 	 *     @type float        $timeout             How long the connection should stay open in seconds. Default 5.
 	 *     @type int          $redirection         Number of allowed redirects. Not supported by all transports.
-	 *                                             Default 5.
+	 *                                             Default 5. Setting of 0 will disable following redirects.
 	 *     @type string       $httpversion         Version of the HTTP protocol to use. Accepts '1.0' and '1.1'.
 	 *                                             Default '1.0'.
 	 *     @type string       $user-agent          User-agent value sent.
